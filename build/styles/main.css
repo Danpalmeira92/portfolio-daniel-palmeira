@@ -25,7 +25,10 @@ li {
 }
 @media (max-width: 767px) {
   .container {
-    max-width: 70%;
+    max-width: 100%;
+  }
+  .container .profile-avatar {
+    margin-top: 128px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
