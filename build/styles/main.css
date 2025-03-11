@@ -11,6 +11,10 @@ body {
   background-color: #472b7a;
   color: #f5f6fa;
 }
+body footer {
+  text-align: center;
+  margin-bottom: 8px;
+}
 li {
   list-style: none;
 }
@@ -29,6 +33,14 @@ li {
   }
   .container .profile-avatar {
     margin-top: 128px;
+  }
+  .container .profile-bio-description {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .container .projects-list {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media (min-width: 768px) and (max-width: 1023px) {
